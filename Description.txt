@@ -1,0 +1,9 @@
+Description du concours
+Demandez à un acheteur de maison de décrire la maison de ses rêves, et il ne commencera probablement pas par la hauteur du plafond du sous-sol ou la proximité d'une voie ferrée est-ouest. Mais l'ensemble de données de ce concours de terrain de jeu prouve que beaucoup plus influence les négociations de prix que le nombre de chambres ou une clôture blanche.
+Avec 79 variables explicatives décrivant (presque) tous les aspects des maisons résidentielles à Ames, Iowa, ce concours vous met au défi de prédire le prix final de chaque maison.
+
+Objectif
+C'est votre travail de prédire le prix de vente de chaque maison. Pour chaque ID du jeu de test, vous devez prédire la valeur de la variable SalePrice. 
+
+Métrique
+Les soumissions sont évaluées sur l'erreur moyenne quadratique (RMSE)  entre le logarithme de la valeur prédite et le logarithme du prix de vente observé. (Prendre des journaux signifie que les erreurs de prédiction des maisons chères et des maisons bon marché affecteront le résultat de la même manière.)
